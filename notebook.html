@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notebook Website</title>
+    <link rel="stylesheet" href="notebook.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Notebbok</h1>
+
+      <div class="top-controls">
+        <input type="text" id="searchBox" placeholder="search notes..." />
+        <button id="darkBtn">Dark Mode</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="note-input">
+        <input type="text" id="noteTitle" placeholder="Enter note title" />
+
+        <textarea
+          id="noteText"
+          placeholder="Write your note here..."
+        ></textarea>
+
+        <button id="addBtn">Add note</button>
+      </div>
+
+      <div id="notesContainer"></div>
+    </main>
+
+    <footer>
+      <p>Notebook WEbsite project using HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="notebook.js"></script>
+  </body>
+</html>
